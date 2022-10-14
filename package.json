@@ -1,0 +1,26 @@
+{
+  "name": "caps-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sqs.driver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TylerofArk/caps-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TylerofArk/caps-serverless/issues"
+  },
+  "homepage": "https://github.com/TylerofArk/caps-serverless#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1232.0",
+    "chance": "^1.1.8",
+    "sqs-consumer": "^5.7.0",
+    "sqs-producer": "^2.1.0"
+  }
+}
