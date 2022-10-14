@@ -12,7 +12,7 @@ const topic = 'arn:aws:sns:us-east-2:112727125534:pickup';
 const payload = {
   Message: message,
   TopicArn: topic,
-}
+};
 
 sns.publish(payload).promise()
   .then(data => console.log(data))
@@ -23,7 +23,7 @@ const app = Consumer.create({
   handleMessage: (data) => {
     let body = JSON.parse(data.Body);
     console.log('Message Received: ', body);
-  }
+  },
 });
 
 app.start();
